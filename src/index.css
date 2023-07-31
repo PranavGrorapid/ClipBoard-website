@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+  h3{
+
+    @apply  font-bold text-3xl my-5 md:text-4xl lg:text-5xl
+  }
+
+  p{
+
+    @apply  max-w-3xl  text-start text-grayishBlue mx-auto   md:text-center md:text-lg lg:text-2xl md:max-w-xl md:my-10
+  }
+
+  h5{
+
+    @apply text-center font-bold text-2xl  text-darkGrayishBlue lg:text-3xl
+  }
+}
+

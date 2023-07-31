@@ -1,0 +1,33 @@
+
+
+.section-container{
+
+  @apply max-w-6xl mx-auto  text-center
+}
+
+
+.button-container{
+
+  @apply px-8  py-3 font-bold text-white rounded-full shadow-lg md:py-5  
+}
+
+
+
+
+
+body{
+
+  background-image: url('../public/images//bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media(max-width:576px){
+
+  body{
+
+    background-image: url('../public/images//bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
